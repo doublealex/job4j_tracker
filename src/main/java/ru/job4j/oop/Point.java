@@ -1,4 +1,4 @@
-package ru.job4j.elementaryRefact;
+package ru.job4j.oop;
 
 import static java.lang.Math.sqrt;
 import static java.lang.Math.pow;
@@ -18,8 +18,8 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        Point a = new Point(6, 3);
-        Point b = new Point(3, 7);
+        Point a = new Point(4, 0);
+        Point b = new Point(0, 4);
         double dist = a.distance(b);
         System.out.println(dist);
     }
